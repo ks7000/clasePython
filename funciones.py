@@ -10,12 +10,12 @@ a=mi_funcion()
 print a
 
 
-def nombres(nombre,apellido,edad):
+def nombres(nombre,apellido):
     #nombre_completo= nombre, apellido #Concatenacion como tupla
     #nombre_completo= nombre + apellido + str(edad) #Concatenacion como cadena
-    nombre_completo="Mi nombre es %s %s y tengo %d" % (nombre, apellido, edad)
+    nombre_completo="Mi nombre es %s %s y tengo %d" % (nombre, apellido)
 
     print nombre_completo
 
 
-nombres("Luis ","Carrillo ",25)
+nombres("Luis ","Carrillo ")
