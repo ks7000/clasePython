@@ -36,3 +36,9 @@ mi_auto.conducir()
 mi_auto.conducir()
 mi_auto.conducir()
 mi_auto.conducir()"""
+
+#Herencia
+class Helicoptero(Auto):
+    pass
+
+
