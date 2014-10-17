@@ -17,4 +17,4 @@ def grabar_datos(registro_r):
 
 if __name__ == '__main__':
    # mostrar_registro()
-    grabar_datos()
+    grabar_datos(registro)
